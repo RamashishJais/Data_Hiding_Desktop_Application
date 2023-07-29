@@ -1,0 +1,284 @@
+<web-app>
+
+	<display-name>IRDH Image Encryption</display-name>
+
+	<!-- All About Admin -->
+	
+
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.action.user.UserLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.action.admin.AdminLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Profile</servlet-name>
+		<servlet-class>com.action.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profile</servlet-name>
+		<url-pattern>/Profile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditProfile</servlet-name>
+		<servlet-class>com.action.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile</servlet-name>
+		<url-pattern>/EditProfile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.action.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ListUser</servlet-name>
+		<servlet-class>com.action.admin.ListUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListUser</servlet-name>
+		<url-pattern>/ListUser</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DepartmentList</servlet-name>
+		<servlet-class>com.action.admin.DepartmentList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DepartmentList</servlet-name>
+		<url-pattern>/DepartmentList</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DesignationList</servlet-name>
+		<servlet-class>com.action.admin.DesignationList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DesignationList</servlet-name>
+		<url-pattern>/DesignationList</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.action.admin.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- All About Users -->
+
+
+
+	<servlet>
+		<servlet-name>UserProfile</servlet-name>
+		<servlet-class>com.action.user.UserProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserProfile</servlet-name>
+		<url-pattern>/UserProfile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EditUserProfile</servlet-name>
+		<servlet-class>com.action.user.EditUserProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditUserProfile</servlet-name>
+		<url-pattern>/EditUserProfile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ChangeUserPassword</servlet-name>
+		<servlet-class>com.action.user.ChangeUserPassword
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeUserPassword</servlet-name>
+		<url-pattern>/ChangeUserPassword</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>ImageList</servlet-name>
+		<servlet-class>com.action.user.ImageList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ImageList</servlet-name>
+		<url-pattern>/ImageList</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ReadFile</servlet-name>
+		<servlet-class>com.action.user.ReadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadFile</servlet-name>
+		<url-pattern>/ReadFile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateFile</servlet-name>
+		<servlet-class>com.action.user.UpdateFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateFile</servlet-name>
+		<url-pattern>/UpdateFile</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>EncryptImage</servlet-name>
+		<servlet-class>com.action.user.EncryptImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EncryptImage</servlet-name>
+		<url-pattern>/EncryptImage</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>com.action.user.Download</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/Download</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>ViewAdminTransaction</servlet-name>
+		<servlet-class>com.action.admin.ViewAdminTransaction
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewAdminTransaction</servlet-name>
+		<url-pattern>/ViewAdminTransaction</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>UserTransactionList</servlet-name>
+		<servlet-class>com.action.user.UserTransactionList
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserTransactionList</servlet-name>
+		<url-pattern>/UserTransactionList</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DecryptImage</servlet-name>
+		<servlet-class>com.action.user.DecryptImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DecryptImage</servlet-name>
+		<url-pattern>/DecryptImage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ComposeMail</servlet-name>
+		<servlet-class>com.action.user.ComposeMail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ComposeMail</servlet-name>
+		<url-pattern>/ComposeMail</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveFile</servlet-name>
+		<servlet-class>com.action.user.SaveFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveFile</servlet-name>
+		<url-pattern>/SaveFile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveRandomShares</servlet-name>
+		<servlet-class>com.action.user.SaveRandomShares</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveRandomShares</servlet-name>
+		<url-pattern>/SaveRandomShares</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		<servlet-name>Test</servlet-name>
+		<servlet-class>com.action.admin.Test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/Test</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.action.common.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EncryptImage_2</servlet-name>
+		<servlet-class>com.action.user.EncryptImage_2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EncryptImage_2</servlet-name>
+		<url-pattern>/EncryptImage_2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>HideData</servlet-name>
+		<servlet-class>com.action.user.HideData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HideData</servlet-name>
+		<url-pattern>/HideData</url-pattern>
+	</servlet-mapping>
+	
+
+
+
+</web-app>
