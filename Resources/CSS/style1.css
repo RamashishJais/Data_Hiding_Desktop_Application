@@ -1,0 +1,187 @@
+body 
+{
+	margin: 0px;
+	background: #404040 url(../Images/layermo_bg.jpg) no-repeat center top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+}
+
+.header { font-size: 14pt; color:#CC0000; }
+
+.subheader 
+{ 
+	font-family: "Trebuchet MS", Tahoma, Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	color: #008800; 
+}
+
+.footer, .footer a:link, .footer a:visited { font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; }
+.footer_ad { float: left; margin: 10px; margin-right: 0px; }
+
+.flashmo_tn 
+{ 
+	float: left;
+	width: 146px;
+	margin-right: 5px;
+	margin-bottom: 12px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	background: #FAFAFA url(../Images/layermo_bg.jpg);
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.flashmo_tn_detail 
+{
+	padding-left: 2px;
+}
+.flashmo_tn_title 
+{
+	font-weight: bold;
+	color: #0066AA;
+}
+
+.page_navigation { clear: both; margin-bottom: 10px; }
+div.paging { margin: 0; padding: 0; }
+div.paging a, .paging_info { display: inline-block; margin: 0 8px 8px 0; padding: 4px 8px; background: #FFFFFF url(../Images/flashmo_download_bg.jpg); color: #333333; border: 1px solid #DDDDDD; }
+div.paging a:hover, div.paging a:active { background-color: #DDDDDD; background-image: none; color: #000000; text-decoration: none; border-color: #999999; }
+div.paging span.current { display: inline-block; margin: 0 8px 8px 0; padding: 4px 8px; background-color: #DDDDDD; color: #000000; font-weight: bold; border: 1px solid #999999; }
+div.paging span.disabled { display: inline-block; margin: 0 8px 8px 0; padding: 4px 8px; border: 1px solid #DDDDDD; color: #AAAAAA; }
+
+a:link { color: #0066AA; text-decoration: none} 
+a:visited { color: #0066AA; text-decoration: none} 
+a:active { color: #AA0000; text-decoration: underline} 
+a:hover { color: #FF6FCF; text-decoration: underline}
+
+.note { color:#666666 }
+.site_title { font-size: 18pt; color: #FFFFFF; }
+.site_subtitle { font-size: 9pt; font-weight: bold; color: #FFFFFF; padding-left: 30px; padding-top: 55px; width: 300px; float: left; }
+.search_box { color: #000000; background-color: #EEEEEE; border: 1px solid #660000; }
+.template_download { font-size: 10pt; }
+
+.flashmo_box 
+{
+	float: left;
+	margin: 10px;
+	margin-left: 0px;
+	padding: 8px;
+	width: 400px;
+	border: 1px solid #DDD;
+	background: #FAFAFA url(../Images/fm_tn_bg2.gif) repeat-x;
+}
+
+.fm_links 
+{
+	list-style:none;
+	margin:6px;
+	padding:0px;
+	line-height: 100%;
+}
+.fm_links li
+{
+	height: 16px;
+	padding: 2px;
+}
+.fm_links a:link, .fm_links a:visited 
+{
+	color: #000;
+}
+.fm_links a:active, .fm_links a:hover 
+{
+	color: #06A;
+}
+
+.wix_style li { margin: 0; padding: 3px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+.wix_style li a:link, .wix_style li a:visited { display: block; padding: 6px 2px; color: #0066AA; }
+.wix_style li a:active, .wix_style li a:hover { color: #FFFFFF; background: #0066AA; text-decoration: none; }
+
+.flashmo_download a
+{
+	clear: both;
+	float: left;
+	display: block;
+	border: 1px solid #CCC; 
+	background: #F2F2F2 url(../Images/flashmo_download_bg.jpg);
+	font-size: 12px;
+	font-weight: bold;
+	width: 200px;
+	margin-bottom: 15px;
+	padding: 7px;
+	text-align: center;
+}
+.flashmo_download a:hover, .flashmo_download a:active 
+{
+	background: #DDDDDD;
+	color: #555555;
+	text-decoration: none;
+}
+.flashmo_clear { clear: both; width: 100%; height: 0px; font-size: 0px; }
+.ko_mid { font-weight: bold; color:#C00; }
+
+    #tabsE 
+    {
+      float:left;
+      width:100%;
+      background: #444 url(../Images/fm_menu_bg2.gif);
+      line-height: normal;
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: 12px;
+	  font-weight: bold;
+    }
+    #tabsE ul 
+    {
+        margin:0;
+        padding: 4px 10px 0px 50px;
+        list-style:none;
+		
+    }
+    #tabsE li 
+    {
+      display: inline;
+      margin:0;
+      padding:0;
+	  
+    }
+    #tabsE a 
+    {
+      float:left;
+      background:url(../Images/tableftE2.gif) no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+    }
+    #tabsE a span
+    {
+      float: left;
+      display: block;
+      background:url(../Images/tabrightE2.gif) no-repeat right top;
+      padding: 6px 15px 7px 6px;
+      color: #FFF;
+	  max-height: 13px;
+    }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsE a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsE a:hover span
+    {
+   	 	color:#FFF;
+    }
+    #tabsE a:hover
+    {
+    	background-position:0% -42px;
+    }
+    #tabsE a:hover span 
+    {
+    	background-position:100% -42px;
+    }
+
+    #tabsE #current a 
+    {
+    	background-position:0% -42px;
+    }
+    #tabsE #current a span 
+    {
+    	background-position:100% -42px;
+    }

@@ -1,0 +1,377 @@
+body 
+{
+	padding-top:10px;
+	background-image: linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	background-image: -o-linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	background-image: -moz-linear-gradient(bottom, #777777 17%, #CCCCCC 81%);
+	background-image: -webkit-linear-gradient(bottom, #EEEEEE 19%, #A9D0F5 81%);
+	background-image: -ms-linear-gradient(bottom, #DDDDDD 17%, #FFFFFF 81%);
+}
+
+iframe 
+{
+  margin-top: 25px;
+  margin-bottom: 30px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px; 
+  border-radius: 12px; 
+
+  -moz-box-shadow: 4px 4px 14px #000; 
+  -webkit-box-shadow: 4px 4px 14px #000; 
+  box-shadow: 41px 14px 30px #000; 
+
+}
+
+b {	font-size: 110%; }
+em { color: red; }
+
+#maincontainer 
+{
+	width: 980px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+#mainmenu
+{
+	background: #FFFFFF;
+}
+
+.header_left
+{
+	float: left;
+	width: 300px;
+	padding-top: 68px;
+	padding-left: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.header_left span
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #99CCFF;
+}
+
+.header_right
+{
+	float: right;
+	width: 320px;
+	margin: 20px 20px 0px 0px;
+}
+
+.note 
+{ color:#666; }
+
+#top_section
+{
+	background: url(http://cdn.templatemo.com/images/tm_header4.jpg) no-repeat;
+	height: 110px;
+}
+#content_area 
+{
+	clear: both;
+	min-height: 800px;
+	background: #FFF;
+}
+
+#content_column 
+{
+	float: left;
+	width: 670px;
+/*	width: 500px; */
+}
+
+#right_column 
+{
+	float: right;
+	width: 165px;
+	line-height: 1.8em;
+}
+#left_column 
+{
+	float: left;
+	padding-left: 10px;
+	width: 300px;
+}
+
+#footer
+{
+	clear: both;
+	width: 100%;
+	background: black;
+	color: #FFF;
+	text-align: center;
+	padding: 4px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+#footer a 
+{
+	color: #FFFFFF;
+}
+
+#template_preview
+{
+	border: 3px solid #666666;
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 3px;
+/*	width: 954px; height: 500px; */
+	width: 800px; height: 800px;
+}
+
+#preview_footer
+{
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	background: #F6F6F6;
+	width: 218px;
+	min-height: 228px;
+	text-align: justify;
+}
+#preview_footer b
+{
+	font-size: 11px;
+}
+
+#preview_footer_ad 
+{
+	float: left;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 250px;
+}
+#preview_footer_right 
+{
+	float: left;
+	margin-left: 10px;
+	width: 300px;
+	padding: 0px;
+/*	border: 1px solid #CCCCCC; 
+	background: #F6F6F6;	*/
+}
+
+.templatemo_box_one
+{
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	width: 814px;
+	border: 4px solid #FF99CC;
+	background: #F8F2EB;
+}
+
+.line 
+{
+	height: 2px;
+	background: #0066AA;
+}
+.inner_tube 
+{
+	margin: 10px;
+}
+.right_box 
+{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.templatemo_clear { clear: both; width: 100%; height: 0px; font-size: 0px; }
+
+.templatemo_link_box
+{
+	float: left;
+	width: 150px;
+	line-height: 1.8em;
+	padding: 10px 0px;
+}
+
+.title
+{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #009900;
+}
+
+.subtitle 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #CC0066;
+}
+
+.thumbnail
+{
+	border: 1px #CCC solid;
+}
+
+.top_links
+{
+	margin: 0px 0px 20px 0px;
+	padding: 2px 0px 5px 30px;
+	background: #045C97;
+	font-size: 11px;
+}
+
+.top_links a:link, .top_links a:visited 
+{
+	color: #FFFFFF;
+}
+
+.top_links a:active, .top_links a:hover 
+{
+	color: #CCFF00;
+}
+
+.thumbnail_frame 
+{
+	float: left;
+	margin: 10px 4px 4px 10px;
+	padding: 4px;
+	width: 142px; 
+	background: #F8F8F8;
+	border: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+.thumbnail_title 
+{
+	font-weight: bold;
+}
+
+.blog_post a:link, .blog_post a:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	line-height: 1.7em;
+}
+.blog_post a:active, .blog_post a:hover
+{
+	color: #AA0000;
+}
+
+.page_navigation { clear: both; margin-bottom: 10px; }
+
+div.paging { margin: 0 0 0 10px; padding: 0px; }
+
+div.paging a, .paging_info { display: inline-block; margin: 0 8px 8px 0; padding: 4px 8px; background-color: #FFFFFF; color: #333333; border: 1px solid #999999; }
+
+div.paging a:hover, div.paging a:active { background-color: #CCCCCC; color: #000000; text-decoration: none; }
+
+div.paging span.current { display: inline-block; margin: 0 8px 8px 0; padding: 4px 8px; background-color: #CCCCCC; color: #000000; font-weight: bold; border: 1px solid #999999; }
+
+div.paging span.disabled { display: inline-block; margin: 0 8px 8px 0; padding: 4px 8px; border: 1px solid #DDDDDD; color: #AAAAAA; }
+
+a:link { color: #0066AA; text-decoration: none} 
+a:visited { color: #0066AA; text-decoration: none} 
+a:active { color: #CC0066; text-decoration: underline} 
+a:hover { color: #CC0066; text-decoration: underline}
+
+a.boldbuttons 
+{
+	background: transparent url('http://cdn.templatemo.com/images/roundedge-gray-left.gif') no-repeat top left;
+	display: block;
+	float: left;
+	font: bold 13px Arial;
+	line-height: 22px;
+	height: 30px;
+	padding-left: 8px;
+	text-decoration: none;
+}
+a:link.boldbuttons, a:visited.boldbuttons, a:hover.boldbuttons, a:active.boldbuttons
+{
+	color: white;
+}
+a.boldbuttons span 
+{
+	background: transparent url('http://cdn.templatemo.com/images/roundedge-gray-right.gif') no-repeat top right;
+	display: block;
+	padding: 4px 10px 4px 2px; /*Set 10px to be equal or greater than'padding-left' value above*/
+}
+a:hover.boldbuttons 
+{ /* Hover state CSS */
+	text-decoration: underline;
+}
+.buttonwrapper 
+{ /* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	width: 100%;
+}
+
+/* Credits: By Santosh Setty (http://webdesigninfo.wordpress.com) */
+/* Posted to: Dynamic Drive CSS Library (http://www.dynamicdrive.com/style/) */
+/* Modified by Min Thu (http://www.templatemo.com) */
+
+.glossymenu 
+{
+	position: relative;
+	padding: 0 0 0 34px;
+	margin: 0 auto 0 auto;
+	background: url(../Images/menub_bg.gif) repeat-x; /*tab background image path*/
+	height: 46px;
+	list-style: none;
+}
+.glossymenu li
+{
+	float:left;
+}
+.glossymenu li a
+{
+	float: left;
+	display: block;
+	color:#000;
+	text-decoration: none;
+	font-family: "Trebuchet MS", Verdana, Arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding:0 0 0 16px; /*Padding to accomodate left tab image. Do not change*/
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	cursor: pointer;	
+}
+.glossymenu li a b 
+{
+	float: left;
+	display: block;
+	padding: 0 24px 0 8px; /*Padding of menu items*/
+}
+.glossymenu li.current a, .glossymenu li a:hover 
+{
+	color: #fff;
+	background: url(../Images/menub_hover_left.gif) no-repeat; /*left tab image path*/
+	background-position: left;
+}
+.glossymenu li.current a b, .glossymenu li a:hover b
+{
+	color: #fff;
+	background: url(../Images/menub_hover_right.gif) no-repeat right top; /*right tab image path*/
+}
+
+.vaco_content 
+{
+	float: left;
+	margin: 10px 4px 4px 10px;
+	padding: 4px;
+	width: 142px;
+	height: 107px;
+	background: #F8F8F8;
+	border: 1px solid #CCC;
+	overflow: hidden;
+}
+.vaco_content img { width: 140px; height: 105px; border: 1px solid #ccc }

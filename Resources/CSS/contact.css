@@ -1,0 +1,30 @@
+.tab
+{
+	border: 5px solid #5E74D8;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width:830px;
+	padding:50px
+}
+
+th
+{
+	text-decoration:underline;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+#color
+{
+	background-image: linear-gradient(bottom, #C7F582 0%, #E9F0DD 100%, #96FFA6 100%);
+	background-image: -o-linear-gradient(bottom, #C7F582 0%, #E9F0DD 100%, #96FFA6 100%);
+	background-image: -moz-linear-gradient(bottom, #C7F582 0%, #E9F0DD 100%, #96FFA6 100%);
+	background-image: -webkit-linear-gradient(bottom, #C7F582 0%, #E9F0DD 100%, #96FFA6 100%);
+	background-image: -ms-linear-gradient(bottom, #C7F582 0%, #E9F0DD 100%, #96FFA6 100%);
+}
+
+#td
+{	
+	position:relative;
+	top:-30px;
+}

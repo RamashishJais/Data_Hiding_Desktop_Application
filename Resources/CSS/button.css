@@ -1,0 +1,137 @@
+
+.gradientbuttons
+{
+	text-decoration: none;
+	padding: 8px 17px;
+	
+	background-image: linear-gradient(bottom, #6E5219 17%, #D4961B 81%);
+	background-image: -o-linear-gradient(bottom, #6E5219 17%, #D4961B 81%);
+	background-image: -moz-linear-gradient(bottom, #6E5219 17%, #D4961B 81%);
+	background-image: -webkit-linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	background-image: -ms-linear-gradient(bottom, #6E5219 17%, #D4961B 81%);
+	border-radius: 10px; /*w3c border radius*/
+	-moz-border-radius: 10px; /* mozilla border radius */
+	-webkit-border-radius: 10px; /* webkit border radius */
+	-webkit-box-shadow: 15px 18px 10px rgba(0,0,0,.5); /* webkit box shadow */
+	box-shadow: 15px 18px 10px rgba(0,0,0,.5); /* w3c box shadow */
+	-moz-box-shadow: 15x 18px 10px rgba(0,0,0,.5); /* mozilla box shadow */
+	cursor:hand;
+}
+
+.gradientlinks
+{
+	text-decoration: none;
+	padding: 8px 17px;
+	
+	background-image: linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	background-image: -o-linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	background-image: -moz-linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	background-image: -webkit-linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	background-image: -ms-linear-gradient(bottom, #5E74D8 17%, #D7E6F6 81%);
+	
+	border-radius: 10px; /*w3c border radius*/
+	-moz-border-radius: 10px; /* mozilla border radius */
+	-webkit-border-radius: 10px; /* webkit border radius */
+	
+	cursor:hand;
+}
+
+a:hover
+{
+	background:#F2F2F2;
+	
+}
+
+#a1
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top:50px;
+	padding-bottom:50px;
+	border: 10px solid #FFFFFF;
+	border-radius: 75px; /*w3c border radius*/
+	-moz-border-radius: 75px; /* mozilla border radius */
+	-webkit-border-radius: 75px; /* webkit border radius */
+	font: bolder;
+	font-style: normal;
+	font-weight: bolder;
+}
+
+#a2
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border: 10px solid #FFFFFF;
+	border-radius: 75px; /*w3c border radius*/
+	-moz-border-radius: 75px; /* mozilla border radius */
+	-webkit-border-radius: 75px; /* webkit border radius */
+	font: bolder;
+	font-style: bold;
+	font-weight: bolder;
+	color: #000000;
+}
+
+#a3
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border: 10px solid #FFFFFF;
+	border-radius: 75px; /*w3c border radius*/
+	-moz-border-radius: 75px; /* mozilla border radius */
+	-webkit-border-radius: 75px; /* webkit border radius */
+	font: bolder;
+	font-style: bold;
+	font-weight: bolder;
+	color: #000000;
+}
+
+#a4
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border: 10px solid #FFFFFF;
+	border-radius: 75px; /*w3c border radius*/
+	-moz-border-radius: 75px; /* mozilla border radius */
+	-webkit-border-radius: 75px; /* webkit border radius */
+	font: bolder;
+	font-style: bold;
+	font-weight: bolder;
+	color: #000000;
+}
+
+#a5
+{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top:0px;
+	padding-bottom:0px;
+	border: 10px solid #FFFFFF;
+	border-radius: 75px; /*w3c border radius*/
+	-moz-border-radius: 75px; /* mozilla border radius */
+	-webkit-border-radius: 75px; /* webkit border radius */
+	font: bolder;
+	font-style: bold;
+	font-weight: bolder;
+	color: #000000;
+}
+
+p
+{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bolder;
+	font-size: large;
+	line-height: 100%;
+	word-spacing: 1.5ex;
+	letter-spacing: 0.1ex;
+	text-transform: capitalize;
+	text-indent: 0ex;
+	text-align:left;
+}
